@@ -8,4 +8,4 @@ before_install:
   - docker build -t vladosed/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run -e CI=true vladosed/docker-react npm run test
+  - docker run vladosed/docker-react npm run test
