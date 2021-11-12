@@ -9,3 +9,6 @@ before_install:
 
 script:
   - docker run vladosed/docker-react npm run test
+
+  ###some useless stuff
+  
